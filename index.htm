@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Twitter</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .searchbarGreen{
+    background-color: red;
+}
+    </style>
+</head>
+<body>
+    <div class="outermost" id="outermost">
+        <div class="left" id="left">
+            <ul class="ul" id="ul">
+                <li class="li" id="li1"><img src="data:image/png;base64,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" alt="twitter logo" id="bird"></li>
+                <li class="li" id="li2"><a href="#">Home</a></li>
+                <li class="li" id="li3"><a href="#">Explore</a></li>
+                <li class="li" id="li4"><a href="#">Notifications</a></li>
+                <li class="li" id="li5"><a href="#"># Messages</a></li>
+                <li class="li" id="li6"><a href="#">Bookmarks</a></li>
+                <li class="li" id="li7"><a href="#">Lists</a></li>
+                <li class="li" id="li8"><a href="#">Profile</a></li>
+                <li class="li" id="li9"><a href="#">More</a></li>
+                <li class="li" id="li10"><button id="Twitterbtn" class="btn">Tweet</button></li>
+                <li class="li" id="li11"><div id="outli1" class="outli"><img src="https://hindi.cdn.zeenews.com/hindi/sites/default/files/2020/01/09/487685-hrithik-roshan.jpg" alt="myhero" id="hero"></div>
+                    <div id="outli2" class="outli"><p>Aditya Patil<br> @AdityaPatil1008</p></div></li>
+                
+            </ul>
+            
+            
+        </div>
+
+
+        <div class="middle" id="middle">
+            <nav class="nav" id="nav">
+                <div class="up" id="up"><a href="#home">Home</a></div>
+            </nav>
+
+            <div class="opt" id="opt">
+                <div class="myphoto">
+                    <img src="https://hindi.cdn.zeenews.com/hindi/sites/default/files/2020/01/09/487685-hrithik-roshan.jpg" alt="my hero" id="myphoto">
+                </div>
+
+                <div class="whattxt" ><input type="text" name="text" id="whattxt" placeholder="What's happening?"></div>
+
+                <button id="Twitterbtn2" class="btn">Tweet</button> 
+            </div>
+
+            <div class="dwn" id="dwn">
+                <div class="read" id="1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ex assumenda vitae laudantium quo dolorum explicabo? Aliquid commodi fugiat est, vel dolor nostrum amet! Voluptatem dolores praesentium culpa quas nulla possimus esse iusto dolor expedita alias voluptatum architecto veniam soluta tempora quam atque nemo provident, eaque odit! Placeat, iste. Ipsa.</p>
+                <img src="https://source.unsplash.com/random/?city,night" alt="city" class="rimg">
+                </div>
+                <div class="read" id="2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ex assumenda vitae laudantium quo dolorum explicabo? Aliquid commodi fugiat est, vel dolor nostrum amet! Voluptatem dolores praesentium culpa quas nulla possimus esse iusto dolor expedita alias voluptatum architecto veniam soluta tempora quam atque nemo provident, eaque odit! Placeat, iste. Ipsa.</p>
+                <img src="https://source.unsplash.com/random/?city,boy,love" alt="city" class="rimg">
+                </div>
+                <div class="read" id="3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ex assumenda vitae laudantium quo dolorum explicabo? Aliquid commodi fugiat est, vel dolor nostrum amet! Voluptatem dolores praesentium culpa quas nulla possimus esse iusto dolor expedita alias voluptatum architecto veniam soluta tempora quam atque nemo provident, eaque odit! Placeat, iste. Ipsa.</p>
+                <img src="https://source.unsplash.com/random/?city,night,nature,sport" alt="city" class="rimg">
+                </div>
+                <div class="read" id="4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ex assumenda vitae laudantium quo dolorum explicabo? Aliquid commodi fugiat est, vel dolor nostrum amet! Voluptatem dolores praesentium culpa quas nulla possimus esse iusto dolor expedita alias voluptatum architecto veniam soluta tempora quam atque nemo provident, eaque odit! Placeat, iste. Ipsa.</p>
+                <img src="https://source.unsplash.com/random/?dance,music,clothes" alt="city" class="rimg">
+                </div>
+                
+
+            </div>
+            
+            
+        </div>
+        <div class="right" id="right">
+          <div id="see"><input type="search" name="search" id="searchbar" class="searchbar" placeholder="Search Twitter" onclick="funct()"></div>
+
+          <div id="last">
+            <div class="titles" id="news">
+                <h3>News</h3>
+                <div id="display">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium non adipisci quidem optio, animi possimus illum velit debitis, veritatis ullam libero rerum, porro doloribus quas voluptas magnam sunt! Sit, modi!</p>
+
+                <img src="https://source.unsplash.com/random/?news" alt="newsimg" id="newsimg">
+                </div>
+                
+            </div>
+            <div class="titles" id="news">
+                <h3>Trending</h3>
+                <div id="display">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium non adipisci quidem optio, animi possimus illum velit debitis, veritatis ullam libero rerum, porro doloribus quas voluptas magnam sunt! Sit, modi!</p>
+
+                <img src="https://source.unsplash.com/random/?trending" alt="newsimg" id="newsimg">
+                </div>
+                
+            </div>
+            <div class="titles" id="news">
+                <h3>Hero</h3>
+                <div id="display">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium non adipisci quidem optio, animi possimus illum velit debitis, veritatis ullam libero rerum, porro doloribus quas voluptas magnam sunt! Sit, modi!</p>
+
+                <img src="https://source.unsplash.com/random/?hero" alt="newsimg" id="newsimg">
+                </div>
+                
+            </div>
+            <div class="titles" id="news">
+                <h3>Star</h3>
+                <div id="display">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium non adipisci quidem optio, animi possimus illum velit debitis, veritatis ullam libero rerum, porro doloribus quas voluptas magnam sunt! Sit, modi!</p>
+
+                <img src="https://source.unsplash.com/random/?stars" alt="newsimg" id="newsimg">
+                </div>
+                
+            </div>
+            <div class="titles" id="news">
+                <h3>Space</h3>
+                <div id="display">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium non adipisci quidem optio, animi possimus illum velit debitis, veritatis ullam libero rerum, porro doloribus quas voluptas magnam sunt! Sit, modi!</p>
+
+                <img src="https://source.unsplash.com/random/?space" alt="newsimg" id="newsimg">
+                </div>
+                
+            </div>
+            <div class="titles" id="news">
+                <h3>Telivision</h3>
+                <div id="display">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium non adipisci quidem optio, animi possimus illum velit debitis, veritatis ullam libero rerum, porro doloribus quas voluptas magnam sunt! Sit, modi!</p>
+
+                <img src="https://source.unsplash.com/random/?tv" alt="newsimg" id="newsimg">
+                </div>
+                
+            </div>
+            <div class="titles" id="news">
+                <h3>Night</h3>
+                <div id="display">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium non adipisci quidem optio, animi possimus illum velit debitis, veritatis ullam libero rerum, porro doloribus quas voluptas magnam sunt! Sit, modi!</p>
+
+                <img src="https://source.unsplash.com/random/?night" alt="newsimg" id="newsimg">
+                </div>
+                
+            </div>
+            <div class="titles" id="news">
+                <h3>city</h3>
+                <div id="display">
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium non adipisci quidem optio, animi possimus illum velit debitis, veritatis ullam libero rerum, porro doloribus quas voluptas magnam sunt! Sit, modi!</p>
+
+                <img src="https://source.unsplash.com/random/?city" alt="newsimg" id="newsimg">
+                </div>
+                
+            </div>
+            
+        </div>
+        </div>
+
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

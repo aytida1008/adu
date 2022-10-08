@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+#bird{
+    width: 45px;
+    
+}
+
+ul{
+    list-style: none;
+    padding-top: 0px;
+
+}
+
+.outermost{
+    /* border: 2px solid black; */
+    display: flex;
+    /* height: 100vh; */
+    padding: 5px;
+}
+
+.left{
+    /* border: 2px solid black; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.middle{
+    /* border: 2px solid black; */
+    width: 40%;
+}
+
+ 
+
+ ul{
+    position:fixed;
+    top: 1px;
+ }
+.li{
+    padding: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 30px ;
+    
+}
+
+.li a:hover{
+    
+    
+    background-color: rgb(226 226 226);
+    
+}
+
+
+#li1{
+    margin-top: -10px;
+    border-radius:30px ;
+}
+#li1:hover{
+    cursor: pointer;
+}
+
+#Twitterbtn{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    border: 0px ;
+    
+    font-size: 18px;
+
+}
+#Twitterbtn:hover{
+    background-color: rgb(35, 130, 255);
+    cursor: pointer;
+}
+
+#hero{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#li11{
+   
+    display:flex;
+    flex-direction: row;
+    font-size: 10px;
+    margin-top: 45px;
+    width: 220px;
+    height: 45px;
+    padding: 10px;
+    
+}
+
+#outli2{
+    margin-left: 10px;
+    font-size: 19px;
+    margin-top: -22px
+}
+
+#li11{
+    cursor: pointer;
+    border-radius: 30px ;
+}
+#li11:hover{
+    
+    background-color: rgb(226 226 226);
+}
+
+#nav{
+    /* border: 2px solid red; */
+    height: 60px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    
+    
+}
+
+#up a{
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    margin: 9px 0px 13px 13px;
+}
+
+#myphoto{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 4px;
+    cursor: pointer;
+
+}
+
+.myphoto{
+    width: 50px;
+    height: 50px;
+    margin:4px ;
+}
+
+#opt{
+    /* border: 2px solid red; */
+    margin: 0px;
+    display: flex;
+    height: 120px;
+}
+#whattxt{
+    width: 490px;
+    height: 38px;
+    margin-top: 9px;
+    margin-left: 12px;
+    /* border: 2px solid black; */
+    border: 0px;
+}
+.whattxt{
+    width: 490px;
+    height: 38px;
+}
+
+#Twitterbtn2{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    border: 0px ;
+    font-size: 18px;
+    margin-top: 70px;
+    margin-left: -80px;
+
+}
+
+#Twitterbtn2:hover{
+    background-color: rgb(35, 130, 255);
+    cursor: pointer;
+}
+
+.rimg{
+    width: 550px;
+    height: 360px;
+    margin-left: 22px;
+}
+
+/* ....................right................... */
+
+.right{
+    /* border: 2px solid black; */
+    width: 35%;
+ }
+#searchbar{
+    width: 350px;
+    height: 40px;
+    margin-left: 27px;
+    border-radius: 50px;
+    background-color: rgb(243, 245, 247);
+    border: 2px solid white;
+    
+}
+
+#see{
+    background-color: white;
+    position: sticky;
+    top: 10px;
+    margin-top: 0px;
+}
+
+#newsimg{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    margin-top: 20px;
+
+}
+#display{
+    display: flex;
+    flex-direction: row;
+}
+
+#display p{
+    width: 60%;
+}
+
+.titles{
+    width: 87%;
+    margin-left: 27px;
+}
+
+#last{
+    background-color: rgb(243, 245, 247);
+    border-radius: 15px;
+    width: 68%;
+    margin-left: 27px;
+    margin-top: 7px;
+}
+
+/* ........js classlist........ */
+
+.searchbarGreen{
+    background-color: red;
+}
